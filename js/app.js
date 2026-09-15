@@ -416,7 +416,7 @@
     if (counterEl) {
       if (cleanQuery.length > 0 || activeCategory !== 'all') {
         counterEl.style.display = 'block';
-        counterEl.innerHTML = `Topildi: <strong>${filtered.length}</strong> ta to'plam${cleanQuery ? ` ("<em>${escapeHtml(cleanQuery)}</em>" bo'yicha)` : ''}`;
+        counterEl.innerHTML = `Showing <strong>${filtered.length}</strong> ${filtered.length === 1 ? 'collection' : 'collections'}${cleanQuery ? ` for "<em>${escapeHtml(cleanQuery)}</em>"` : ''}`;
       } else {
         counterEl.style.display = 'none';
       }
@@ -426,10 +426,10 @@
     if (filtered.length === 0) {
       grid.innerHTML = `
         <div class="empty-search-state">
-          <h3>Hech narsa topilmadi</h3>
-          <p>Qidiruv so'zini o'zgartirib ko'ring yoki barcha to'plamlarni ko'rish uchun quyidagi tugmani bosing.</p>
+          <h3>No matching collections found</h3>
+          <p>Try different keywords or explore our complete library below.</p>
           <button type="button" class="btn-primary-3d" id="reset-search-btn" style="display: inline-flex; width: auto; padding: 12px 28px; margin: 0 auto;">
-            <span>✨ Barcha to'plamlarni ko'rsatish (16)</span>
+            <span>✨ Show All 16 Collections</span>
           </button>
         </div>
       `;
