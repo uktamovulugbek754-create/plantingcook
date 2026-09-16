@@ -457,8 +457,6 @@
 
       cardWrap.innerHTML = `
         <div class="card-3d-inner">
-          <div class="card-glare"></div>
-          
           <div class="layer-badge">
             <span class="deal-badge ${item.badgeClass}">
               <span>${item.badge}</span>
@@ -522,66 +520,10 @@
       `;
 
       grid.appendChild(cardWrap);
-      attachTiltEffect(cardWrap);
     });
 
     attachModalTriggers();
     attachAffiliateTracking();
-  }
-
-  // 2. Interactive 3D Tilt & Specular Physics
-  function attachTiltEffect(card) {
-    const inner = card.querySelector('.card-3d-inner');
-    const glare = card.querySelector('.card-glare');
-    if (!inner) return;
-
-    let bounds;
-
-    function onPointerEnter(e) {
-      bounds = card.getBoundingClientRect();
-      if (glare) glare.style.opacity = '1';
-    }
-
-    function onPointerMove(e) {
-      if (!bounds) bounds = card.getBoundingClientRect();
-
-      const clientX = e.clientX || (e.touches && e.touches[0].clientX);
-      const clientY = e.clientY || (e.touches && e.touches[0].clientY);
-
-      if (!clientX || !clientY) return;
-
-      const posX = clientX - bounds.left;
-      const posY = clientY - bounds.top;
-
-      // Normalization from -1 to 1
-      const normX = (posX / bounds.width - 0.5) * 2;
-      const normY = (posY / bounds.height - 0.5) * 2;
-
-      // Maximum 12 degrees tilt for elegant, natural feel
-      const rotateX = -normY * 12;
-      const rotateY = normX * 12;
-
-      card.style.transform = `perspective(1200px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) scale3d(1.02, 1.02, 1.02)`;
-
-      if (glare) {
-        glare.style.background = `radial-gradient(circle at ${posX}px ${posY}px, rgba(255, 255, 255, 0.28), transparent 60%)`;
-      }
-    }
-
-    function onPointerLeave() {
-      card.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
-      if (glare) glare.style.opacity = '0';
-      bounds = null;
-    }
-
-    card.addEventListener('mouseenter', onPointerEnter);
-    card.addEventListener('mousemove', onPointerMove);
-    card.addEventListener('mouseleave', onPointerLeave);
-
-    // Mobile touch move (smooth response without page scroll interference)
-    card.addEventListener('touchstart', onPointerEnter, { passive: true });
-    card.addEventListener('touchmove', onPointerMove, { passive: true });
-    card.addEventListener('touchend', onPointerLeave, { passive: true });
   }
 
   // 3. Category Filter Management
