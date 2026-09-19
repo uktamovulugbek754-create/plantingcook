@@ -75,6 +75,28 @@
       ]
     },
     {
+      id: 'keto-dessert-cookbook',
+      category: 'keto',
+      title: 'The Ultimate Keto Dessert Recipe Book',
+      subtitle: '50 Low-Carb, Sugar-Free, High-Fat Desserts You’ll Love Guilt-Free!',
+      badge: 'Guilt-Free Sweets',
+      badgeClass: 'ruby',
+      featured: true,
+      price: '$14',
+      originalPrice: '$29',
+      save: 'SAVE 52%',
+      guarantee: '100% 60-Day Money-Back Guarantee',
+      image: 'assets/keto-desserts.png',
+      affiliateUrl: 'https://www.digistore24.com/redir/647453/uktamovulugbek2943a9b/',
+      description: 'Say goodbye to sugar cravings and hello to indulgence without breaking your keto goals! 50 mouthwatering dessert recipes designed for low-carb living—featuring rich chocolate mousse, creamy cheesecakes, crispy cookies, and fluffy cakes that satisfy your sweet tooth while keeping your body in fat-burning mode.',
+      bullets: [
+        '50 Easy-to-follow low-carb, sugar-free & high-fat recipes',
+        'Includes chocolate treats, cheesecakes, fat bombs & cookies',
+        'Full nutritional information & macros included for every dessert',
+        'Instant digital PDF download with 100% 60-day money-back guarantee'
+      ]
+    },
+    {
       id: 'pep-tonic',
       category: 'vitality',
       title: 'Pep-Tonic: Anti-Aging Superfood Drink',
@@ -429,7 +451,7 @@
           <h3>No matching collections found</h3>
           <p>Try different keywords or explore our complete library below.</p>
           <button type="button" class="btn-primary-3d" id="reset-search-btn" style="display: inline-flex; width: auto; padding: 12px 28px; margin: 0 auto;">
-            <span>✨ Show All 16 Collections</span>
+            <span>✨ Show All ${PRODUCTS.length} Collections</span>
           </button>
         </div>
       `;
