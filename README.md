@@ -33,28 +33,24 @@ Instagram akkauntingiz (`@preparingdeliciousplants`) va Digistore24 affiliate ma
 | 14 | **100% RAW LOVE: Ultimate Raw Foodie** | Cooking & Plant-Based | €19.97 (100-betlik rangli PDF) | `https://www.digistore24.com/redir/42173/uktamovulugbek2943a9b/` |
 | 15 | **EZNaturals Moringa Leaf Complex** | Superfoods, Gut & Energy | $53 / bottle (Mashhur 3x to'plam) | `https://www.checkout-ds24.com/redir/692712/uktamovulugbek2943a9b/` |
 | 16 | **TeslaCare: Terahertz Frequency Wand** | Superfoods, Gut & Energy | $500 tejash (Maxsus taklif) | `https://www.checkout-ds24.com/redir/577873/uktamovulugbek2943a9b/` |
+| 17 | **The Ultimate Keto Dessert Recipe Book** | Keto & Low-Carb | $14 ($29 o'rniga - 52% chegirma) | `https://www.checkout-ds24.com/redir/647453/uktamovulugbek2943a9b/` |
 
 ---
 
-## 💻 Qanday ochish va ishlatish mumkin?
+## 🌐 Jonli Sayt va Havolalar
 
-### 1. Kompyuterda ko'rish
-Shunchaki `index.html` faylini istalgan brauzerda (Google Chrome, Edge, Safari, Opera) ikki marta bosib oching.
-
-### 2. Instagram profilga (Bio Link) joylashtirish (Tavsiya)
-Saytingizni internetda bepul va tezkor e'lon qilish uchun eng yaxshi usullar:
-1. **GitHub Pages (Bepul va 1 daqiqada)**:
-   - Ushbu papkani GitHub-ga yuklang va Repository sozlamalaridan `Pages` funksiyasini yoqing. Sizga `https://sizning-nomingiz.github.io/plantingcook` manzili beriladi.
-2. **Netlify yoki Vercel (Bepul)**:
-   - Papkani [app.netlify.com/drop](https://app.netlify.com/drop) saytiga sichqoncha bilan tashlang (drag & drop). Darhol bepul HTTPS domen beriladi.
-3. Hosil bo'lgan domen manzilini Instagram profilingizdagi **"Edit Profile -> Links"** bo'limiga joylashtiring!
+- **Asosiy Rasmiy Sayt (GitHub Pages):** [https://uktamovulugbek754-create.github.io/plantingcook/](https://uktamovulugbek754-create.github.io/plantingcook/)
+- **Instagram Bio uchun Qisqa Link:** [https://ulvis.net/deliciousplants](https://ulvis.net/deliciousplants)
+- **Instagram Profil:** [@preparingdeliciousplants](https://instagram.com/preparingdeliciousplants)
 
 ---
 
-## 📈 Konversiyani oshiruvchi xususiyatlar (Utility Optimization)
+## 📈 Konversiyani oshiruvchi yangi xususiyatlar
 
-- **3D Interactive Tilt**: Tashrif buyuruvchining diqqatini ushlab turadi, bounce-rate (chiqib ketish)ni kamaytiradi.
-- **Instagram Brand Continuity**: Profil fotosi, logotipi va bio ma'lumotlari aynan Instagramdagi kabi ko'rinadi — obunachi begona joyga tushib qolganini his qilmaydi va ishonch ortadi.
-- **Frictionless CTAs**: Har bir tugma to'g'ridan-to'g'ri Digistore24 xarid oynasiga olib boradi.
-- **Kafolat belgilari (60 & 90 Days)**: Xarid qilishdagi ikkilanish va xavfni bartaraf etadi.
-- **Sticky Mobile Bar**: Mobilda pastga tushganda ham asosiy mahsulot doim qo'l ostida bo'ladi.
+- **🔍 Smart Live Search & Quick Tags:** Xaridorlar 17 ta to'plam orasidan istalgan retsept, keto, o'simlik taomi yoki superfoodni jonli ravishda 1 soniyada qidirib topishi mumkin.
+- **🤖 Generative Engine Optimization (GEO):** ChatGPT, Google Gemini va Perplexity kabi sun'iy intellekt tizimlari saytni o'qib, foydalanuvchilarga tavsiya qilishi uchun Schema.org (Product, ItemList, FAQPage, WebSite) to'liq indekslangan.
+- **⚡ 100% Barqaror va Elegant UI:** Foydalanuvchi qulayligi uchun noqulay hover va sakrashlar olib tashlangan, barqaror zamonaviy ko'rinish berilgan.
+- **Instagram Brand Continuity:** Profil logotipi, verified nishon va bio ma'lumotlari to'liq Instagram bilan uyg'unlashtirilgan.
+- **Frictionless Checkout:** Barcha tugmalar to'g'ridan-to'g'ri xavfsiz Digistore24 to'lov sahifalariga yo'naltirilgan.
+- **Kafolat belgilari (60 & 90 Days):** 100% qaytarish kafolati bilan xaridor ishonchini oshiradi.
+- **Sticky Mobile Bar:** Mobil qurilmalarda eng ommabop kitob doim ekranning pastki qismida ko'rinib turadi.
