@@ -87,7 +87,7 @@
       save: 'SAVE 52%',
       guarantee: '100% 60-Day Money-Back Guarantee',
       image: 'assets/keto-desserts.png',
-      affiliateUrl: 'https://www.digistore24.com/redir/647453/uktamovulugbek2943a9b/',
+      affiliateUrl: 'https://www.checkout-ds24.com/redir/647453/uktamovulugbek2943a9b/',
       description: 'Say goodbye to sugar cravings and hello to indulgence without breaking your keto goals! 50 mouthwatering dessert recipes designed for low-carb living—featuring rich chocolate mousse, creamy cheesecakes, crispy cookies, and fluffy cakes that satisfy your sweet tooth while keeping your body in fat-burning mode.',
       bullets: [
         '50 Easy-to-follow low-carb, sugar-free & high-fat recipes',
